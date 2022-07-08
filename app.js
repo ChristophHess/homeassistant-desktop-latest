@@ -261,7 +261,7 @@ const getMenu = () => {
     {
       label: "Open on github.com",
       click: () => {
-        shell.openExternal("https://github.com/mrvnklm/homeassistant-desktop");
+        shell.openExternal("https://github.com/pheelix/homeassistant-desktop");
       },
     },
     {

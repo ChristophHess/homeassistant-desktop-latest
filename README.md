@@ -2,11 +2,11 @@
 
 Desktop App (Windows / macOS / Linux) for [Home Assistant](https://www.home-assistant.io/) built with [Electron](https://www.electronjs.org)
 
-![Home Assistant - Desktop](https://raw.githubusercontent.com/mrvnklm/homeassistant-desktop/master/media/screenshot.png)
+![Home Assistant - Desktop](https://raw.githubusercontent.com/pheelix/homeassistant-desktop/master/media/screenshot.png)
 
 ## Installation
 
-Just download the latest version for your platform from the [releases section](https://github.com/mrvnklm/homeassistant-desktop/releases) to install Home Assistant
+Just download the latest version for your platform from the [releases section](https://github.com/pheelix/homeassistant-desktop/releases) to install Home Assistant
 
 ## Usage / Features
 
@@ -24,6 +24,13 @@ Just download the latest version for your platform from the [releases section](h
 
 Home Assistant Desktop is open-source and [Apache 2](https://choosealicense.com/licenses/apache-2.0/) licensed
 
-## Contributing
+## Creator
+https://github.com/mrvnklm
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Notes
+All rights to this Project/App belong to https://github.com/mrvnklm.
+
+The App still works on Windows but does have a pop-up error every once and a while.  I do not know if it still works on other platforms.
+I will not be maintaining this Project/App.  
+I added this to my repository because it is no longer on mrvnklm repository.
+I do not know why it is no longer on mrvnklm repository and if he doesn't want me to list the Project/App on my repository I will make it private.

@@ -2,7 +2,7 @@
   "name": "homeassistant-desktop",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrvnklm/homeassistant-desktop"
+    "url": "https://github.com/pheelix/homeassistant-desktop"
   },
   "version": "1.4.0",
   "description": "Desktop App (Windows / macOS / Linux) for Home Assistant built with Electron",
@@ -13,7 +13,7 @@
     "deploy": "electron-builder build --mac --win --linux appimage --ia32 --publish always && electron-builder build --linux appimage --x64 --publish always",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Marvin Kelm (https://github.com/mrvnklm)",
+  "author": "Marvin Kelm (https://github.com/pheelix)",
   "license": "Apache-2.0",
   "dependencies": {
     "auto-launch": "^5.0.5",
