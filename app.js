@@ -318,16 +318,20 @@ const createMainWindow = (show = false) => {
   window = new BrowserWindow({
     width: 420,
     height: 420,
-    show: false,
+    show: true,
     skipTaskbar: true,
     autoHideMenuBar: true,
     frame: false,
     webPreferences: {
       nodeIntegration: true,
+      contextIsolation: false
     },
   });
 
-  // window.webContents.openDevTools();
+  if (process.env.DEBUG) {
+    window.webContents.openDevTools();
+  }
+
   window.loadURL(indexFile);
 
   // open extenal links in default browser
@@ -415,6 +419,7 @@ const createTray = () => {
       ? `${__dirname}/assets/IconWin.png`
       : `${__dirname}/assets/IconTemplate.png`
   );
+  tray.setToolTip("HomeAssistant");
 
   tray.on("click", () => {
     if (window.isVisible()) window.hide();

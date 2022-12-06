@@ -10,6 +10,7 @@
   "scripts": {
     "start": "electron app.js",
     "build-local": "electron-builder build --mac --win --linux appimage --ia32 --publish never && electron-builder build --linux appimage --x64 --publish never",
+    "build-linux": "electron-builder build --linux appimage --publish never && electron-builder build --linux appimage --x64 --publish never",
     "deploy": "electron-builder build --mac --win --linux appimage --ia32 --publish always && electron-builder build --linux appimage --x64 --publish always",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,7 +24,7 @@
     "electron-updater": "^4.3.5"
   },
   "devDependencies": {
-    "electron": "^8.5.5",
+    "electron": "^21.3.3",
     "electron-builder": "^22.9.1"
   },
   "build": {
